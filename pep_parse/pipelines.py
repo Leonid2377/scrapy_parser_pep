@@ -45,7 +45,6 @@ class PepParsePipeline:
                 item['status'], 0) + 1
         return item
 
-
     def close_spider(self, spider):
         now_time = dt.now().strftime(TIME_FORMAT)
         filename = os.path.join(
